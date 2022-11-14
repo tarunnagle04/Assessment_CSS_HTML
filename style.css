@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+
+}
+#img{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#desc{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    font-size:x-large;
+}
+#left
+{
+    background-color: lightgrey;
+    height: 100vh;
+    width: 65vw;
+}
+#right{
+    background-color: #6e1edf;
+    height: 100vh;
+    width: 35vw;
+}
+#tag{
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px 3px white;
+    text-align: left;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: greenyellow;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    left: 125px;
+    font-size: 125%;
+    color: grey;
+}
+.font{
+    position: relative;
+    top: 10px;
+}
+/* #form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+#descs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align:left;
+    color: black;
+}
+.one{
+    background-color: yellow; width: 300px; position: relative; left: 78px;
+}
+.two{
+    background-color: greenyellow; width: 400px; position: relative; left: 20px;
+}
+
+@media screen and (max-width:800px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    #left{
+    background-color: lightgrey;
+    height: 400px;
+    width:800px;
+}
+#img{
+    width: 300px;
+    height: 100px;
+}
+#right{
+    background-color: #6e1edf;
+    height: 600px;
+    width: 100vw;
+}
+#tag{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px white;
+    text-align: left;
+}
+#descs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align:left;
+    color: black;
+}
+#desc{
+    text-align: left;
+}
+.card{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: greenyellow;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+    font-size: 125%;
+    color: grey;
+}
+.one{
+    background-color: yellow; width: 300px; position: relative; left: 250px;
+}
+.two{
+    background-color: greenyellow; width: 400px; position: relative; left: 200px;
+}
+}
